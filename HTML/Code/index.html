@@ -123,11 +123,66 @@
 
 
 <!-- Sample-5 : Forms :  -->
+<hr>
 
 
+<form action="server.php">
+    <fieldset> 
+
+        <!-- Basic input and submit button -->
+           <legend>Personal Information</legend>
+           First Name<br>
+           <input type="text" name="firstname" value="" placeholder="First Name Here"><br>
+
+           Last Name<br>
+           <input type="text" name="lastname" value=""><br><br>
+
+           <!-- Radio Buttons -->
+
+           <input type="radio" name="options" id="1"> Option1
+           <input type="radio" name="options" id="1"> Option2
+           <input type="radio" name="options" id="2"> Option3  <br><br>
+
+            <!-- CheckBoxes -->
+
+           <input type="checkbox" name="checkboxes" checked>checkbox1
+           <input type="checkbox" name="checkboxes">checkbox2
+           <input type="checkbox" name="checkboxes">checkbox3
+           <br><br>
+
+            <!-- Select -->
+
+           <!-- Select: -->
+            <!-- or THIS is the proper way: Label -->
+           <label for="carSelect">Select:</label> 
+            <select name="cars" id="carSelect" multiple>
+                <option value="BMW" selected>BMW</option>
+                <option value="URUS">URUS</option>
+                <option value="Mercedes">Mercedes</option>
+            </select>
+            
+
+           <input type="submit" value="Submit">
+
+    </fieldset>
+</form>
+
+<!-- Fieldset is used to group related elements in a form and draws a box around those elements
+
+Within the fieldset we can add a legend, this defines the caption for the field set
+
+Radio buttons is a way to give users multiple options to choose from but they can only pick one.
+ -->
 
 
+<br>
+<br>
+<br>
+<br>
 
+<!-- Buttons -->
+<button>CLick Me</button>
+<!-- To perform something, we will use some js -->
 
 
 </body>

@@ -144,3 +144,19 @@ Wrapped anchor around image tag.
 
 
 - For spacing and layout don't use line breaks, always use css
+
+
+
+## General Guidelines
+
+- Use lowercase element names - ✓ <div> X <DIV>
+- Use lowercase attribute names
+- Use lowercase file names
+- Use camel case for names, classes, ID's, etc - ✓ myClass
+- No spaces before or after = in attributes - ✓ title="My Title"
+- Avoid long lines of code, break up code
+- Do not add blank lines without a reason
+- Indent code 2 or 4 spaces (preference)
+- Close tags in proper order -
+    x<p><strong>text</p></strong>
+    ✓ <p><strong>text</strong></p>
