@@ -108,6 +108,11 @@ b and i : Bold, Italic - Not semantic, so not to be used anymore.
 2. `<span>` - Defines a section of a document in-line.
 
 - For example : Want a section of paragraph to look different, then grab onto the span tag and then format as needed.
+- It has a style attribute, through which you can apply CSS styling directly to HTML element.
+
+```
+<span style="color:red">
+```
 
 3. `<hr>` - Horizontal Rule, It draws a line, is a way to seperate sections fo the web page.
 
